@@ -1,0 +1,33 @@
+.NewTodoList {
+	flex-wrap: wrap;
+	.content {
+		color: black;
+		flex-wrap: wrap;
+		hr {
+			margin-top: 45px;
+		}
+		.cards {
+			display: flex;
+			justify-content: center;
+			margin-top: 40px;
+			.card {
+				width: 600px;
+				height: 310px;
+				border: 2px solid red;
+				border-radius: 5px;
+				margin-top: 40px;
+				flex-wrap: wrap;
+				@media (max-width: 767px) {
+					flex-wrap: wrap;
+					width: 100%;
+					height: auto;
+				}
+				h3 {
+					color: white;
+					display: flex;
+					justify-content: center;
+				}
+			}
+		}
+	}
+}

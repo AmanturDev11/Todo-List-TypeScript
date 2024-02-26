@@ -1,0 +1,22 @@
+.Header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+
+	background-color: hsl(196, 100%, 50%);
+	.content {
+		display: flex;
+		justify-content: center;
+		.car {
+			z-index: 999999;
+			img {
+				width: 40px;
+				border-radius: 3px;
+			}
+			h1 {
+				color: white;
+			}
+		}
+	}
+}
